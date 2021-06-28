@@ -1,0 +1,235 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#content{
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.topheader{
+    width: 100%;
+    /* height: 18px; */
+    display: flex;
+
+}
+.restaurant-logo{
+    width: 145px;
+    height: auto;
+    /* justify-content: center; */
+}
+.menu-box{
+    height: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+}
+.menu-list{
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    /* padding: 10px; */
+}
+.menu-list-item{
+    padding-left: 10px;
+}
+.menu-list-item-link{
+    color: #000;
+    text-decoration: none;
+}
+.featurefigure{
+    width:100%;
+    padding:0;
+    margin:0px
+
+}
+.featureimg{
+    width:100%;
+    height: auto;
+}
+.featurequotediv{
+    width:847px;
+    height: auto ;
+}
+.featurequotesection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    
+}
+.featurequote{
+    font-size: 1.8em;
+}
+.Menutagline{
+    padding: 10em 0px 0px 4em;
+}
+ 
+ 
+.foodmenuitemsdiv{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    /* padding:50px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.foodmenuitemdiv{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+   
+}
+.foodmenuitemtitle{
+    padding: 20px 0px;
+}
+.fullmenu{
+    color:#fff;
+    padding: 20px 0 0 20px;
+}
+.foodmenusection{
+    background-color: #171717;
+    color: #fff;
+    padding-bottom: 10em;
+    width:100%;
+}
+.reviewsection{
+    padding-top: 10em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.reviewitemidv{
+    width: 650px;
+    padding: 3em 0 ;
+}
+.reviewdescription{
+font-size: 1.8em;
+padding-bottom: 15px;
+}
+.reviewauthor{
+    font-size:small;
+}
+footer{
+    background-color: #171717;
+    color: #fff;
+    padding: 5em 0 5em 0em;
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    max-width: 100%;
+}
+.socialitem{
+    color: #fff;
+    padding: 10px;
+    font-size: 1.3em;
+}
+.socialsdiv{
+    margin:0 0 0 5em;
+}
+
+@media (max-width:450px){
+    #content{
+        width:100%;
+        height: 100vh;
+    }
+    .restaurant-logo{
+        width: 100px;
+        height: auto;
+        /* justify-content: center; */
+    }
+    .menu-box{
+        height: 15px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        padding: 15px 10px 15px  5px;
+    }
+    .featureimg{
+        width:100%;
+        height: 100vh;
+        object-fit: cover;
+        object-position: 30% 50%;
+    }
+    .featurequotediv{
+        width: 100%;
+        height: auto ;
+    }
+    
+    .featurequote{
+        font-size: 1.8em;
+        padding: 1.5em 0.9em;
+        line-height: 1.5em;
+        font-weight: 50;
+    }
+    .foodmenuitemsdiv{
+        width:100%;
+        display: grid;
+        grid-template-columns: auto;
+        /* width: 100%; */
+        /* margin: 0 3px; */
+        /* padding:50px; */
+
+        justify-content: center;
+        align-items: center;
+    }
+    .foodmenuitemdiv{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        padding: 20px 0px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .Menutagline{
+        width:95%;
+        padding: 5em 0px 0px 0px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .reviewitemidv{
+        width: 100%;
+        padding: 3em 0.9em ;
+        line-height: 2.5em;
+    }
+    .reviewsection{
+        padding: 0.9em;
+    }
+    footer{
+        background-color: #171717;
+        color: #fff;
+        padding: 5em 0 5em 0;
+        font-size: 16pt;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+    }
+    .socialsdiv{
+        margin:0 0 0 0;
+    }
+    .fullmenu{
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px 0 0 0px;
+    }
+}

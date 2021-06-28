@@ -1,0 +1,65 @@
+.menublock{
+    margin:0 30em ;
+    margin-top: 10em;
+}
+.drinks{
+    margin-bottom: 10em;
+}
+.menulistdiv{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.titleheading{
+    font-size: 2.5em;
+    font-weight: 100;
+    padding: 0 0 1.5em 0;
+}
+.foodmenuitemtitle{
+    /* font-weight: 100; */
+    font-size: 0.99em;
+    
+
+
+}
+.foodmenuitemdivmenu{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 20px 20px 0;
+    color:rgba(23,23,23,.8);
+
+   
+}
+@media(max-width:450px){
+    
+    .menublock{
+        width: 95%;
+        margin: 5em 1.2em 0 1.2em;
+        /* padding: 0 1.2em 0 1.2em; */
+        /* margin-top: ; */
+    }
+    .menulistdiv{
+        display: grid;
+        grid-template-columns: auto;
+        width: 100%;
+        /* padding-left: 1.2em;
+        padding-right: 1.2em; */
+    }
+    .foodmenuitemdivmenu{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0px 0px 0px 0;
+        color:rgba(23,23,23,.8);
+    
+       
+    }
+    .titleheading{
+        width: 100%;
+        font-size: 2.0em;
+        font-weight: 100;
+        padding: 0 0 1.5em 0;
+    }
+}
