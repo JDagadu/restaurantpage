@@ -228,12 +228,12 @@ footer{
         /* padding: 5em 0 5em 0; */
         margin-left: auto;
         margin-right: auto;
-        font-size: 16pt;
+        font-size: 10pt;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        max-width: 100%;
+        /* max-width: 100%; */
     }
     .socialsdiv{
         margin:0 0 0 0;
