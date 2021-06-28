@@ -178,7 +178,7 @@ footer{
     
     .featurequote{
         font-size: 1.8em;
-        padding: 1.5em 0em;
+        padding: 1.5em 0.9em;
         margin-right: auto;
         margin-left: auto;
         line-height: 1.5em;
@@ -219,9 +219,9 @@ footer{
         margin-left: auto;
         margin-right: auto;
     }
-    /* .reviewsection{
+    .reviewsection{
         padding: 0.9em;
-    } */
+    }
     footer{
         background-color: #171717;
         color: #fff;
