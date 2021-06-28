@@ -69,7 +69,7 @@
     font-size: 1.8em;
 }
 .Menutagline{
-    padding: 10em 0px 0px 4em;
+    padding: 10em 0px 5em 10em;
 }
  
  
@@ -88,17 +88,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 20px;
+    /* padding: 20px; */
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 3em;
    
 }
 .foodmenuitemtitle{
-    padding: 20px 0px;
+    padding: 20px 0px 35px 0;
 }
 .fullmenu{
     color:#fff;
-    padding: 20px 0 0 20px;
+    padding: 20px 0 0 0px;
+    width:50%;
+    margin-left: auto; 
+    margin-right: auto;
 }
 .foodmenusection{
     background-color: #171717;
@@ -208,8 +212,10 @@ footer{
     }
     .reviewitemidv{
         width: 100%;
-        padding: 3em 0.9em ;
+        padding: 3em 0em ;
         line-height: 2.5em;
+        margin-left: auto;
+        margin-right: auto;
     }
     .reviewsection{
         padding: 0.9em;
